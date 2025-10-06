@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تطبيقات الزين</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 30px 0;
+      text-align: center;
+      border-bottom: 2px solid #0066ff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00aaff;
+    }
+
+    header p {
+      margin: 5px 0 0 0;
+      color: #ccc;
+    }
+
+    .apps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background-color: #1f1f1f;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 20%;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px 0;
+      color: #00aaff;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .download {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #0066ff;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .download:hover {
+      background-color: #00aaff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      border-top: 2px solid #0066ff;
+      color: #aaa;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 500px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>تطبيقات الزين</h1>
+  <p>حمّل أحدث تطبيقات الزين المجانية</p>
+</header>
+
+<section class="apps">
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="واتساب">
+    <h3>واتساب</h3>
+    <p>تطبيق المراسلة الأشهر للتواصل مع الأصدقاء.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.whatsapp" target="_blank" class="download">تحميل</a>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/TikTok_logo.svg" alt="تيك توك">
+    <h3>تيك توك</h3>
+    <p>شارك مقاطع الفيديو القصيرة الممتعة.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically" target="_blank" class="download">تحميل</a>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="إنستغرام">
+    <h3>إنستغرام</h3>
+    <p>تطبيق لمشاركة الصور والفيديوهات.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.instagram.android" target="_blank" class="download">تحميل</a>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Facebook_New_Logo_(2015).svg" alt="فيسبوك">
+    <h3>فيسبوك</h3>
+    <p>ابقَ على تواصل مع الأصدقاء والعائلة.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.facebook.katana" target="_blank" class="download">تحميل</a>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="تليغرام">
+    <h3>تليغرام</h3>
+    <p>تطبيق المراسلة السريع والآمن.</p>
+    <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" target="_blank" class="download">تحميل</a>
+  </div>
+
+</section>
+
+<footer>
+  © 2025 تطبيقات الزين | جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
